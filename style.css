@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-family: roboto, sans-serif;
+}
+
+body{
+    background-image: url('./images/video-game-g1457b5e82_1280.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header, footer{
+    background-color: #994029;
+    padding-top:16px;
+    color: #fff;
+}
+
+header > .container{
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.menu{
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu span{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;    
+}
+
+nav{
+    background-color: #E57255;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-flex{
+    display: flex;
+}
+
+/* section{
+    margin: 32px;
+}
+
+section img{
+    height: 400px;
+}
+
+section p{
+    padding-left: 16px;
+    font-size: 20px;
+}
+
+section h2{
+    margin-bottom: 16px;
+} */
+
+section{
+    margin: 100px 600px;
+    border: 10px solid #E57255 ;
+    background-color: #fff;
+    padding: 20px;
+}
+
+section > .container{
+    width: 200px;
+    justify-content: center;
+}
+
+.campos-form{
+    margin-bottom: 16px;
+}
+
+.campos-form label{
+    font-weight: bold;
+    display: block;
+}
+
+.campos-form input{
+    width: 100%;
+    display: flex;
+    padding: 8px;
+}
+
+button{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #299974;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+form{
+    max-width: 260px;
+}
+
+footer{
+    margin-top: 150px;   
+    padding-top: 30px;
+    text-align: center;
+}
