@@ -75,28 +75,16 @@ nav li a{
     display: flex;
 }
 
-/* section{
-    margin: 32px;
-}
-
-section img{
-    height: 400px;
-}
-
-section p{
-    padding-left: 16px;
-    font-size: 20px;
-}
-
-section h2{
-    margin-bottom: 16px;
-} */
-
 section{
-    margin: 100px 600px;
+    max-width: 600px;
+    margin: 100px auto;
     border: 10px solid #E57255 ;
     background-color: #fff;
     padding: 20px;
+}
+
+section h2{
+    padding-bottom: 20px;
 }
 
 section > .container{
